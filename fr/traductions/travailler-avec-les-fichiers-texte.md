@@ -77,7 +77,7 @@ hello world"""
 ```
 
 On retiendra qu'il est possible d'utiliser des apostrophes ou des guillemets
-pour définir la chaîne. Il n'est par contre pas possible de mixer les deux dans
+pour définir la chaîne. Il n'est par contre pas possible de mélanger les deux dans
 la déclaration d'une chaîne de caractères.
 
 Les déclarations suivantes ne fonctionneront pas :
@@ -104,7 +104,7 @@ message6 = "I can't eat pickles"
 Dans le message3 plus haut, les triples guillemets signifient que la chaîne
 se poursuit sur plusieurs lignes.
 
-`Print` est une commande qui affiche l'objet sous forme textuel. La commande
+`print` est une commande qui affiche l'objet sous forme textuel. La commande
 print, combinée à la chaîne de caractères correspond à une *instruction*.
 
 On utilise cette commande `print` lorsque l'on a besoin
@@ -148,7 +148,7 @@ En d'autres termes, open, write et close agissent sur l'objet *f* qui dans le
 cas présent est défini comme un fichier '.txt'. Ce n'est pas forcément
 l'usage habituel du terme méthode, et de temps en temps vous noterez que des
 termes ont, dans le contexte de la programmation, un sens différent du sens
-communément admis. Dans la situation, retenez simplement que les méthodes
+communément admis. Dans ce cas, retenez simplement que les méthodes
 sont des morceaux de code qui vont réaliser des actions définies avant de
 retourner un résultat. Vous pouvez imaginer cela en transposant le principe
 à un exemple concret : le chien. Le chien (objet) comprend des commandes (
@@ -158,12 +158,12 @@ D'autres méthodes prédéfinies seront présentées par la suite.
 *f* est un nom de variable que nous avons choisi mais nous aurions pu choisir
 (quasiment) n'importe quelle chaîne de caractères. En Python, les noms de
 variables sont constitués de lettres majuscules, minuscules, chiffres et
-underscores. Une des seules limites est qu'il est interdit d'utiliser le
-nom des commandes de base de Python comme nom de variables : si vous
+underscores. Une des seules limites est qu'il est interdit d'utiliser les
+noms des commandes de base de Python comme nom de variables : si vous
 essayez par exemple de nommer une variable "print", votre programme ne
 s'exécutera pas car c'est un [mot réservé][] par le langage.
 
-Les noms de variable en python sont *sensibles à la casse*, c'est à dire que
+Les noms de variables en python sont *sensibles à la casse*, c'est à dire que
 toto, Toto et TOTO seront trois variables différentes.
 
 Lorsque vous lancez le programme ci-dessus, la méthode `open` indique
@@ -196,7 +196,7 @@ sur Mac et Linux, ou
 'C:\Python27\Python.exe file-output.py' returned 0.
 ```
 
-sur Windows.
+sous Windows.
 
 Cela signifie que le déroulement du programme s'est effectué avec
 succès. Si vous allez dans le menu *File -> Open -> File*, vous pourrez
@@ -208,11 +208,11 @@ Hello World!
 ```
 
 Étant donné que les fichiers texte n'incluent que peu (voire pas)
-d'indications de formatage, ils ont tendance à rester léger et faciles
+d'indications de formatage, ils ont tendance à rester légers et faciles
 à échanger entre différentes plateformes (par exemple de Windows à Linux
 ou Mac, et vice versa), et ainsi faciles à transférer entre ordinateurs. Ils
-peuvent en règle générale être ouverts par toute personne possédant un éditeur de
-texte (y-compris un éditeur ultra-basique du type "bloc notes").
+ont aussi l'avantage de pouvoir être créées et ouverts par n'importe qui 
+puisque le plus simple des éditeurs de texte, de type bloc notes par exemple, suffit.
 
 
 ### Lire depuis un fichier texte
@@ -258,7 +258,7 @@ on ouvrira plutôt le fichier en ajout avec le _paramètre **'**a**'**_ (***a***
 
 Copiez le programme suivant dans votre éditeur
 et enregistrez le sous `file-append.py`. Lorsque vous cliquez sur "Run" pour
-l'exécuter. Ce programme va ouvrir le fichier précédemment créé et y ajouter
+l'exécuter, ce programme ouvrira le fichier précédemment créé et y ajoutera
 une seconde ligne "hello world". Le code '\\n' correspond à un retour à la
 ligne.
 
@@ -276,7 +276,9 @@ vous verrez que plusieurs lignes contenant le message 'hello world' sont
 apparues.
 
 Dans la prochaine section, nous aborderons la modularité et la réutilisation
-du code.
+du code. Celle-ci est déjà disponible en anglais 
+([Code Reuse and Modularity in Python](https://programminghistorian.org/en/lessons/code-reuse-and-modularity)) 
+et sera bientôt traduite en français.
 
 Lectures recommandées
 ---------------------
